@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Button, { ButtonBorder } from './Button';
+import Button, { ButtonBorder } from './elements/Button';
 
 export default function HeroSection() {
   return (
@@ -15,7 +15,7 @@ export default function HeroSection() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo rerum architecto velit quo ex beatae cumque quibusdam totam dolores laudantium voluptatem, doloremque nobis sapiente labore aperiam nulla blanditiis quod dolore
               soluta.
             </p>
-            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-10 lg:justify-start">
               <Button link="/">Hire Me</Button>
               <ButtonBorder link="/">{`Let's talk`}</ButtonBorder>
             </div>
