@@ -26,27 +26,27 @@ export default function ContactSection() {
       <h2 className="text-center uppercase font-medium text-[var(--primary-color)] text-5xl">Contact</h2>
       <form onSubmit={handleSubmit} className="flex flex-col space-y-7 mx-auto w-full md:w-[70%]">
         <div className="w-full grid grid-cols-12 bg-[var(--primary-color)] items-center p-3">
-          <label htmlFor="name" className=" col-span-3">
-            <span className="text-3xl uppercase text-white font-medium">Your Name</span>
+          <label htmlFor="name" className="col-span-12  md:col-span-3">
+            <span className="text-2xl md:text-3xl uppercase text-white font-medium">Your Name</span>
           </label>
-          <input type="text" id="name" name="name" className="col-span-9 bg-white w-full border-none outline-none text-xl" placeholder="e.g Joe Biden" value={formData.name} onChange={handleChange} required />
+          <input type="text" id="name" name="name" className="col-span-12 md:col-span-9 bg-white w-full border-none outline-none text-xl" placeholder="e.g Joe Biden" value={formData.name} onChange={handleChange} required />
         </div>
 
         <div className="w-full grid grid-cols-12 bg-[var(--primary-color)] items-center p-3">
-          <label htmlFor="email" className=" col-span-3">
-            <span className="text-3xl uppercase text-white font-medium">Your Email</span>
+          <label htmlFor="email" className="col-span-12  md:col-span-3">
+            <span className="text-2xl md:text-3xl uppercase text-white font-medium">Your Email</span>
           </label>
-          <input type="email" id="email" name="email" className="col-span-9 bg-white w-full border-none outline-none text-xl" placeholder="e.g joe.biden@example.com" value={formData.email} onChange={handleChange} required />
+          <input type="email" id="email" name="email" className="col-span-12 md:col-span-9 bg-white w-full border-none outline-none text-xl" placeholder="e.g joe.biden@example.com" value={formData.email} onChange={handleChange} required />
         </div>
 
         <div className="w-full grid grid-cols-12 bg-[var(--primary-color)] items-start p-3">
-          <label htmlFor="message" className=" col-span-3">
-            <span className="text-3xl uppercase text-white font-medium">Message</span>
+          <label htmlFor="message" className="col-span-12  md:col-span-3">
+            <span className="text-2xl md:text-3xl uppercase text-white font-medium">Message</span>
           </label>
-          <textarea id="message" name="message" className="col-span-9 bg-white w-full text-xl p-2 outline-none" placeholder="Your message here..." value={formData.message} onChange={handleChange} required />
+          <textarea id="message" name="message" className="col-span-12 md:col-span-9 bg-white w-full text-xl p-2 outline-none" placeholder="Your message here..." value={formData.message} onChange={handleChange} required />
         </div>
 
-        <button type="submit" className="bg-[var(--primary-color)] text-white uppercase text-2xl font-medium py-2 px-5 mx-auto">
+        <button type="submit" className="bg-[var(--primary-color)] text-white uppercase text-2xl font-medium py-2 px-5 w-full md:w-fit mx-auto">
           Send Message
         </button>
       </form>

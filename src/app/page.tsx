@@ -1,5 +1,6 @@
 import AboutSection from '@/components/AboutSection';
 import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
 import ProjectSection from '@/components/ProjectSection/ProjectSection';
 import SkilsSection from '@/components/Skills/SkilsSection';
@@ -10,11 +11,12 @@ export default function Home() {
     <main>
       <NavbarComponents />
       <HeroSection />
-      <div className="space-y-56">
+      <div className="space-y-20 md:space-y-44">
         <AboutSection />
         <ProjectSection />
         <SkilsSection />
         <ContactSection />
+        <Footer />
       </div>
     </main>
   );
