@@ -5,9 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --primary-color:#01aede;
+  --primary-color: #013cde;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: "Teko", sans-serif;
 }

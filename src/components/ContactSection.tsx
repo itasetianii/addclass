@@ -22,7 +22,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="w-full flex flex-col space-y-10 justify-center items-center container">
+    <section className="w-full flex flex-col space-y-10 justify-center items-center container" id="contact">
       <h2 className="text-center uppercase font-medium text-[var(--primary-color)] text-5xl">Contact</h2>
       <form onSubmit={handleSubmit} className="flex flex-col space-y-7 mx-auto w-full md:w-[70%]">
         <div className="w-full grid grid-cols-12 bg-[var(--primary-color)] items-center p-3">
@@ -43,7 +43,7 @@ export default function ContactSection() {
           <label htmlFor="message" className="col-span-12  md:col-span-3">
             <span className="text-2xl md:text-3xl uppercase text-white font-medium">Message</span>
           </label>
-          <textarea id="message" name="message" className="col-span-12 md:col-span-9 bg-white w-full text-xl p-2 outline-none" placeholder="Your message here..." value={formData.message} onChange={handleChange} required />
+          <textarea id="message" name="message" rows={5} className="col-span-12 md:col-span-9 bg-white w-full text-xl p-2 outline-none" placeholder="Your message here..." value={formData.message} onChange={handleChange} required />
         </div>
 
         <button type="submit" className="bg-[var(--primary-color)] text-white uppercase text-2xl font-medium py-2 px-5 w-full md:w-fit mx-auto">
