@@ -22,7 +22,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="flex items-center justify-center py-4 md:p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-          <Image width={'500'} height={'500'} src="/img/jk.jpg" alt="" className="object-cover h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128    w-72 sm:w-80 lg:w-96 xl:w-112 2xl:w-128 rounded-full" />
+          <Image width={'500'} height={'500'} src="/img/lisa.jpg" alt="" className="object-cover h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128    w-72 sm:w-80 lg:w-96 xl:w-112 2xl:w-128 rounded-full" />
         </div>
       </div>
     </section>
