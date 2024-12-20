@@ -65,6 +65,7 @@ export default function Footer() {
         </ul>
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+          {/*
           <li>
             <a href="#" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
               <span className="sr-only">Facebook</span>
@@ -77,9 +78,10 @@ export default function Footer() {
               </svg>
             </a>
           </li>
+          */}
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
+            <a href="https://instagram.com/itaassssss" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
               <span className="sr-only">Instagram</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -90,7 +92,8 @@ export default function Footer() {
               </svg>
             </a>
           </li>
-
+          
+          {/*}
           <li>
             <a href="#" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
               <span className="sr-only">Twitter</span>
@@ -99,9 +102,10 @@ export default function Footer() {
               </svg>
             </a>
           </li>
+          */}
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
+            <a href="https://github.com/itasetianii" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
               <span className="sr-only">GitHub</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -114,8 +118,8 @@ export default function Footer() {
           </li>
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
-              <span className="sr-only">Dribbble</span>
+            <a href="https://www.linkedin.com/in/ita-setiani-a0355828a/" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
+              <span className="sr-only">LinkedIn</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   fillRule="evenodd"

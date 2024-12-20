@@ -10,15 +10,18 @@ export default function HeroSection() {
             <h1 className="text-5xl font-medium leading-none sm:text-7xl uppercase">
               Hi im <span className="text-[var(--primary-color)]">Ita Setiani</span>
             </h1>
-            <h2 className="text-5xl  font-medium leading-none sm:text-5xl uppercase text-[var(--primary-color)]">Web Developer</h2>
+            <h2 className="text-5xl  font-medium leading-none sm:text-5xl uppercase text-[var(--primary-color)]">UI/UX Designers</h2>
+            
             <p className="!mt-3 mb-8 text-xl sm:mb-12 uppercase font-medium md:max-w-2xl">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo rerum architecto velit quo ex beatae cumque quibusdam totam dolores laudantium voluptatem, doloremque nobis sapiente labore aperiam nulla blanditiis quod dolore
               soluta.
             </p>
+                        
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-10 lg:justify-start">
               <Button link="/">Hire Me</Button>
               <ButtonBorder link="/">{`Let's talk`}</ButtonBorder>
             </div>
+            
           </div>
         </div>
         <div className="flex items-center justify-center py-4 md:p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
