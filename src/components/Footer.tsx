@@ -105,7 +105,7 @@ export default function Footer() {
           */}
 
           <li>
-            <a href="https://github.com/itasetianii" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
+            <a href="https://github.com/itsncode" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75">
               <span className="sr-only">GitHub</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
